@@ -42,6 +42,7 @@ cd INSciphers
 ```
 
 ## How to Run
+Read the steps given in detail below
 
 ## Running Locally
 #### For Java Programs:

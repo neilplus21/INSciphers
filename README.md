@@ -43,7 +43,7 @@ cd INSciphers
 
 ## How to Run
 
-### Running Locally
+## Running Locally
 #### For Java Programs:
 2. Compile the program using:
    ```bash

@@ -60,7 +60,7 @@ cd INSciphers
    python <filename>.py
    ```
 
-### Running on GitHub Codespaces
+## Running on GitHub Codespaces
 1. Open the repository in GitHub and click on the **Code** button.
 2. Select **Create Codespace on Main**.
 3. Once the Codespace is ready, open the terminal and navigate to the desired cipher folder.

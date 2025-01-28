@@ -45,7 +45,6 @@ cd INSciphers
 
 ### Running Locally
 #### For Java Programs:
-1. Navigate to the folder containing the Java file.
 2. Compile the program using:
    ```bash
    javac <filename>.java
@@ -56,7 +55,6 @@ cd INSciphers
    ```
 
 #### For Python Programs:
-1. Navigate to the folder containing the Python file.
 2. Execute the program:
    ```bash
    python <filename>.py

@@ -2,6 +2,8 @@
 
 This repository contains implementations of various ciphers and cryptographic algorithms as part of the **Network Security Lab**. The projects are written in **Java** and **Python**, showcasing different encryption and decryption techniques.
 
+GitHub Repository: [INSciphers](https://github.com/neilplus21/INSciphers)
+
 ## Table of Contents
 - [Tech Stack](#tech-stack)
 - [Features](#features)
@@ -10,6 +12,7 @@ This repository contains implementations of various ciphers and cryptographic al
   - [Running Locally](#running-locally)
   - [Running on GitHub Codespaces](#running-on-github-codespaces)
 - [Ciphers Included](#ciphers-included)
+- [License](#license)
 
 ## Tech Stack
 - **Programming Languages**: Java, Python
@@ -34,8 +37,8 @@ Ensure you have the following installed:
 
 ### Clone the Repository
 ```bash
-git clone https://github.com/your-username/network-security-lab-ciphers.git
-cd network-security-lab-ciphers
+git clone https://github.com/neilplus21/INSciphers.git
+cd INSciphers
 ```
 
 ## How to Run
@@ -75,5 +78,6 @@ cd network-security-lab-ciphers
 4. **Hill Cipher** (Python):
    - Matrix multiplication-based cipher.
 
-
+## License
+This repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
 

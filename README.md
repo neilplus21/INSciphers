@@ -10,8 +10,6 @@ This repository contains implementations of various ciphers and cryptographic al
   - [Running Locally](#running-locally)
   - [Running on GitHub Codespaces](#running-on-github-codespaces)
 - [Ciphers Included](#ciphers-included)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Tech Stack
 - **Programming Languages**: Java, Python
@@ -77,23 +75,5 @@ cd network-security-lab-ciphers
 4. **Hill Cipher** (Python):
    - Matrix multiplication-based cipher.
 
-## Contributing
-Contributions are welcome! Please follow these steps:
-1. Fork the repository.
-2. Create a feature branch:
-   ```bash
-git checkout -b feature-name
-   ```
-3. Commit your changes:
-   ```bash
-git commit -m "Add feature description"
-   ```
-4. Push to the branch:
-   ```bash
-git push origin feature-name
-   ```
-5. Open a pull request.
 
-## License
-This repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
 

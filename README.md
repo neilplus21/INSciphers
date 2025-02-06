@@ -24,6 +24,7 @@ GitHub Repository: [INSciphers](https://github.com/neilplus21/INSciphers)
   - Caesar Cipher
   - Vigenère Cipher
   - Hill Cipher
+  - MonoAlphabetic Cipher
 - Detailed comments in the code for better understanding.
 - Code examples for encryption and decryption workflows.
 
@@ -76,7 +77,7 @@ Read the steps given in detail below
    - Key-based substitution cipher.
 4. **Hill Cipher** (Python):
    - Matrix multiplication-based cipher.
-5. **Mono alphabetic Cipher** (Java):
+5. **MonoAlphabetic Cipher** (Java):
    - Substitution map-based cipher.
 
 ## License

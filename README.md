@@ -68,14 +68,16 @@ Read the steps given in detail below
 4. Follow the [Running Locally](#running-locally) steps for Java or Python programs.
 
 ## Ciphers Included
-1. **Playfair Cipher** (Java):
+1. **Playfair Cipher** (Python):
    - Encryption and decryption functionalities for a 5x5 matrix cipher.
-2. **Caesar Cipher** (Python):
+2. **Caesar Cipher** (Java):
    - Shift-based substitution cipher.
-3. **Vigenère Cipher** (Java):
+3. **Vigenère Cipher** (Python):
    - Key-based substitution cipher.
 4. **Hill Cipher** (Python):
    - Matrix multiplication-based cipher.
+5. **Mono alphabetic Cipher** (Java):
+   - Substitution map-based cipher.
 
 ## License
 This repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.

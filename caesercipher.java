@@ -43,7 +43,7 @@ public class pprogram {
         pprogram caesarCipher = new pprogram();     
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter text:");
-        String orig = sc.nextLine(); // Changed next() to nextLine() to capture spaces
+        String orig = sc.nextLine();
         System.out.println("Enter shift:");
         int shift = sc.nextInt();
         

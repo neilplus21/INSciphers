@@ -25,8 +25,8 @@ GitHub Repository: [INSciphers](https://github.com/neilplus21/INSciphers)
   - Vigenère Cipher
   - Hill Cipher
   - MonoAlphabetic Cipher
-- Detailed comments in the code for better understanding.
-- Code examples for encryption and decryption workflows.
+- Detailed comments in the code for better understanding. (pending)
+- Code examples for encryption and decryption workflows. (pending)
 
 ## Setup and Installation
 

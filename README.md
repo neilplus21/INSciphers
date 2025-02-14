@@ -73,7 +73,7 @@ Read the steps given in detail below
    - Encryption and decryption functionalities for a 5x5 matrix cipher.
 2. **Caesar Cipher** (Java):
    - Shift-based substitution cipher.
-3. **Vigenère Cipher** (Python):
+3. **Vigenère Cipher** (Java):
    - Key-based substitution cipher.
 4. **Hill Cipher** (Python):
    - Matrix multiplication-based cipher.

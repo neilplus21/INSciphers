@@ -11,7 +11,6 @@ GitHub Repository: [INSciphers](https://github.com/neilplus21/INSciphers)
 - [How to Run](#how-to-run)
   - [Running Locally](#running-locally)
   - [Running on GitHub Codespaces](#running-on-github-codespaces)
-- [Ciphers Included](#ciphers-included)
 - [License](#license)
 
 ## Tech Stack
@@ -67,18 +66,6 @@ Read the steps given in detail below
 2. Select **Create Codespace on Main**.
 3. Once the Codespace is ready, open the terminal and navigate to the desired cipher folder.
 4. Follow the [Running Locally](#running-locally) steps for Java or Python programs.
-
-## Ciphers Included
-1. **Playfair Cipher** (Python):
-   - Encryption and decryption functionalities for a 5x5 matrix cipher.
-2. **Caesar Cipher** (Java):
-   - Shift-based substitution cipher.
-3. **Vigenère Cipher** (Java):
-   - Key-based substitution cipher.
-4. **Hill Cipher** (Python):
-   - Matrix multiplication-based cipher.
-5. **MonoAlphabetic Cipher** (Java):
-   - Substitution map-based cipher.
 
 ## License
 This repository is licensed under the MIT License.

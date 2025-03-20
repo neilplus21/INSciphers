@@ -26,3 +26,10 @@ if(len(cipher) !=len(result)):
     while(len(cipher) != len(result)):
         cipher="0"+cipher
 print(cipher)
+
+plainText = ""
+for i in range(0,len(cipher),8):
+    temp = cipher[i:i+8]
+    d = int(temp,2)
+    plainText=plainText+chr(d)
+print(plainText)

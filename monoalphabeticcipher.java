@@ -1,44 +1,36 @@
-package monoalphabetic;
+package inslabexam;
 
-public class monoalp {
-	public void encrypt(String text) {
-	char[] ctext = text.toCharArray();
-	String letters = "abcdefghijklmnopqrstuvwxyz";
-	String mkey =    "qwertyuiopasdfghjklzxcvbnm";
-	char[] makey = mkey.toCharArray();
-	StringBuilder ciph = new StringBuilder();
-	//char[] arr = letters.toCharArray();
-	for(int i=0; i<text.length();i++) {
-		if(letters.indexOf(ctext[i])>0) {
-			ciph.append(makey[letters.indexOf(ctext[i])]);
-		}
-	 }
-	//return ciph.toString();
-	System.out.println(ciph.toString());
-	}
-	public void decrypt(String text) {
-		char[] ctext = text.toCharArray();
+public class MonoalphabeticCipher {
+	public static void encrypt (String text) {
 		String letters = "abcdefghijklmnopqrstuvwxyz";
-		char[] cletters = letters.toCharArray();
-		String mkey =    "qwertyuiopasdfghjklzxcvbnm";
-		char[] makey = mkey.toCharArray();
-		StringBuilder decryp = new StringBuilder();
-		//char[] arr = letters.toCharArray();
-		for(int i=0; i<text.length();i++) {
-			if(letters.indexOf(ctext[i])>0) {
-				decryp.append(cletters[mkey.indexOf(ctext[i])]);
+		String key = 	 "qwertyuiopasdfghjklzxcvbnm";
+		char [] mkey = key.toCharArray();
+		StringBuilder ciph = new StringBuilder();
+		for(int i = 0; i<text.length(); i++) {
+			if(letters.indexOf(text.charAt(i))>0) {
+				ciph.append(mkey[letters.indexOf(text.charAt(i))]);
 			}
-		 }
-		System.out.println(decryp.toString());
+		}
+		System.out.println(ciph.toString());
 		
-		
+	}
+	public static void decrypt(String text) {
+		String letters = "abcdefghijklmnopqrstuvwxyz";
+		String key = 	 "qwertyuiopasdfghjklzxcvbnm";
+		char [] cletters = letters.toCharArray();
+		char [] mkey = key.toCharArray();
+		StringBuilder ciph = new StringBuilder();
+		for(int i = 0; i<text.length(); i++) {
+			if(letters.indexOf(text.charAt(i))>0) {
+				ciph.append(cletters[key.indexOf(text.charAt(i))]);
+			}
+		}
+		System.out.println(ciph.toString());
 		
 	}
 	public static void main(String[] args) {
-		monoalp m = new monoalp();
-		m.encrypt("dingdong");
-		m.decrypt("rofurgfu");
-		
+		encrypt("meow");
+		decrypt("dtgv");
 	}
 
 }
